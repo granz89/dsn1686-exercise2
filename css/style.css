@@ -1,0 +1,73 @@
+/* This imports all of our partials to be compiled into one stylesheet, which you can than 
+attach to your html.
+
+All files that are previxed with an underscore "_name-of-file.scss" are called partials - meaning their css isn't 
+compiled unless its imported into and unprefixed .scss file. */
+/*This contains all our variables*/
+/*variables are placeholders for storing information that you want to resuse throughout your styles.
+You can store things like colors, font-stacks, or any css value you think you might want to reuse.
+SCSS uses the $ symbol to declare a variable */
+/* This file contains all our mixins */
+/* This is our main file */
+/* line 3, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+body {
+  background-color: #ffffff;
+  font: normal 100%/1.5 sans-serif;
+  margin: 0;
+  padding: 0; }
+
+/* line 10, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+p {
+  font-family: "open sans", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center; }
+
+/* line 17, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.p1 {
+  font-family: "open sans", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -3rem; }
+
+/* line 25, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.intro {
+  background-color: #3f6276;
+  text-align: center;
+  padding: 6rem 0;
+  font-size: 8rem; }
+
+/* line 32, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.primary-btn {
+  background-color: #3f6276;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; }
+  /* line 11, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/mixins */
+  .primary-btn:hover {
+    background-color: #174d6c; }
+
+/* line 36, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.secondary-btn {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #000; }
+  /* line 11, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/mixins */
+  .secondary-btn:hover {
+    background-color: #666; }
+
+/* line 40, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.border, ul {
+  border: 1px solid #666; }
+  /* line 42, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+  .border p, ul p {
+    background: green; }
+
