@@ -33,7 +33,7 @@ p{
 	font-size: 5em;
 	background-color:$secondary;
 	color:$primary;
-	padding: 8rem 0;
+	padding: 6rem 0;
 	margin: -1rem -2rem 0 -2rem;
 
 }
@@ -42,34 +42,16 @@ p{
 	font-size: 4em;
 	background-color:$primary;
 	color:$secondary;
-	padding: 6rem 0
+	padding: 8rem 0;
+	margin-bottom: 0rem;
 
 }
 
-/*
-.primary-btn {
-	@include button($primary, #fff, $primary-dark);
+.btn-section{
+	text-align: center;
+	padding-top: 5rem;
 }
 
-.secondary-btn {
-	@include button($secondary, #000, $secondary-dark);
+#primary-btn {
+	@include button;
 }
-
-.border {
-	border: 1px solid $secondary-dark;
-	p{
-		background: green;
-	}
-}
-
-ul {
-	@extend .border;
-}
-
-a{
-	a:hover{
-
-	}
-}
-
-*/
