@@ -39,35 +39,44 @@ p {
   font-size: 8rem; }
 
 /* line 32, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
-.primary-btn {
-  background-color: #3f6276;
-  border-radius: 3px;
-  padding: 0.5em 1em;
-  margin: 1em;
-  display: inline-block;
-  text-decoration: none;
-  color: #fff; }
-  /* line 11, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/mixins */
-  .primary-btn:hover {
-    background-color: #174d6c; }
-
-/* line 36, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
-.secondary-btn {
+.white-section {
+  font-size: 5em;
   background-color: #ffffff;
-  border-radius: 3px;
-  padding: 0.5em 1em;
-  margin: 1em;
-  display: inline-block;
-  text-decoration: none;
-  color: #000; }
-  /* line 11, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/mixins */
-  .secondary-btn:hover {
-    background-color: #666; }
+  color: #3f6276;
+  padding: 8rem 0;
+  margin: -1rem -2rem 0 -2rem; }
 
-/* line 40, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
-.border, ul {
-  border: 1px solid #666; }
-  /* line 42, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
-  .border p, ul p {
-    background: green; }
+/* line 41, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/dsn1686-exercise2/scss/components/main */
+.blue-section {
+  font-size: 4em;
+  background-color: #3f6276;
+  color: #ffffff;
+  padding: 6rem 0; }
 
+/*
+.primary-btn {
+	@include button($primary, #fff, $primary-dark);
+}
+
+.secondary-btn {
+	@include button($secondary, #000, $secondary-dark);
+}
+
+.border {
+	border: 1px solid $secondary-dark;
+	p{
+		background: green;
+	}
+}
+
+ul {
+	@extend .border;
+}
+
+a{
+	a:hover{
+
+	}
+}
+
+*/

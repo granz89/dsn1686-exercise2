@@ -8,16 +8,16 @@ body {
 }
 
 p{
-	font-family: "open sans", sans-serif;
+	font-family: $font-stack;
 	font-size: 3rem;
 	color: $secondary;
 	text-align: center;
 }
 
 .p1{
-	font-family: "open sans" , sans-serif;
+	font-family:$font-stack;
 	font-size: 3rem;
-	color: $secondary;
+	color:$secondary;
 	text-align: center;
 	margin-top: -3rem;
 }
@@ -29,6 +29,24 @@ p{
 	font-size: 8rem;
 }
 
+.white-section{
+	font-size: 5em;
+	background-color:$secondary;
+	color:$primary;
+	padding: 8rem 0;
+	margin: -1rem -2rem 0 -2rem;
+
+}
+
+.blue-section{
+	font-size: 4em;
+	background-color:$primary;
+	color:$secondary;
+	padding: 6rem 0
+
+}
+
+/*
 .primary-btn {
 	@include button($primary, #fff, $primary-dark);
 }
@@ -53,3 +71,5 @@ a{
 
 	}
 }
+
+*/
